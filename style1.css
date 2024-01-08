@@ -1,0 +1,79 @@
+/* Basic styling and responsiveness */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .container h2{
+    text-align: center;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 100px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* Customization options (examples) */
+  /* Change background color */
+  .container {
+    background-color: #f5f5f5;
+  }
+  
+  /* Change text color */
+  body {
+    color: #333;
+  }
+  
+  /* Change button color */
+  button[type="submit"] {
+    background-color: #007bff; /* Blue */
+  }
+  
+  /* Add more padding to form elements */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 15px;
+  }
+  
